@@ -25,7 +25,7 @@
         "vocab_size": 10000
       },
       "created_at": "2025-11-05T08:33:30.381029",
-      "model_path": "models\\registry\\v20251105_083330",
+      "model_path": "models/registry/v20251105_083330",
       "status": "active"
     },
     {
@@ -53,7 +53,7 @@
         "vocab_size": 10000
       },
       "created_at": "2025-11-05T08:33:54.230238",
-      "model_path": "models\\registry\\v20251105_083354",
+      "model_path": "models/registry/v20251105_083354",
       "status": "active"
     }
   ],

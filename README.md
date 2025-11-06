@@ -1,2 +1,0 @@
-# chinese-bert-service
-tensflowserving

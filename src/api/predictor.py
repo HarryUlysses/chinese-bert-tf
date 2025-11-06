@@ -188,7 +188,9 @@ class ModelPredictor:
     def _load_model_from_info(self, model_info: Dict[str, Any]) -> bool:
         """从模型信息加载模型"""
         try:
-            model_path = Path(model_info['model_path'])
+            # 标准化路径格式，确保使用正斜杠
+            model_path_str = model_info['model_path'].replace('\\', '/')
+            model_path = Path(model_path_str)
             logger.info(f"加载模型: {model_info['model_version']}")
 
             # 加载Keras模型
