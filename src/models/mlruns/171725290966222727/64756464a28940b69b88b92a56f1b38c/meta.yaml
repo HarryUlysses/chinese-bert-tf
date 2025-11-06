@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Administrator/Documents/GitHub/chinese-bert-service/src/models/mlruns/171725290966222727/64756464a28940b69b88b92a56f1b38c/artifacts
+end_time: 1762302933708
+entry_point_name: ''
+experiment_id: '171725290966222727'
+lifecycle_stage: active
+run_id: 64756464a28940b69b88b92a56f1b38c
+run_name: invincible-skunk-851
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762302929682
+status: 3
+tags: []
+user_id: Administrator

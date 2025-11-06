@@ -1,0 +1,53 @@
+# 生产告警规则
+groups:
+  - name: chinese-text-classifier
+    rules:
+      # API服务可用性告警
+      - alert: APIServiceDown
+        expr: up{job="chinese-text-classifier-api"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "API服务不可用"
+          description: "API服务已下线超过1分钟"
+
+      # 高错误率告警
+      - alert: HighErrorRate
+        expr: rate(http_requests_total{status=~"5.."}[5m]) > 0.05
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "API错误率过高"
+          description: "API错误率为 {{ $value | humanizePercentage }}，超过5%阈值"
+
+      # 高延迟告警
+      - alert: HighLatency
+        expr: histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m])) > 2
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "API响应延迟过高"
+          description: "API 95%延迟为 {{ $value }}s，超过2s阈值"
+
+      # 内存使用率告警
+      - alert: HighMemoryUsage
+        expr: (container_memory_usage_bytes / container_spec_memory_limit_bytes) * 100 > 85
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "内存使用率过高"
+          description: "容器内存使用率为 {{ $value }}%，超过85%阈值"
+
+      # CPU使用率告警
+      - alert: HighCPUUsage
+        expr: rate(container_cpu_usage_seconds_total[5m]) * 100 > 80
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "CPU使用率过高"
+          description: "容器CPU使用率为 {{ $value }}%，超过80%阈值"

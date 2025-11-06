@@ -1,0 +1,43 @@
+# 简化版Docker Compose配置
+version: '3.8'
+
+services:
+  # API服务
+  api:
+    build: .
+    container_name: chinese-text-classifier-api
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - DEBUG=true
+    volumes:
+      - ./models:/app/models
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Redis缓存 (可选)
+  redis:
+    image: redis:7-alpine
+    container_name: chinese-text-classifier-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  redis_data:

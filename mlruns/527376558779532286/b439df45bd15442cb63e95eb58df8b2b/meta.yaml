@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Administrator/Documents/GitHub/chinese-bert-service/mlruns/527376558779532286/b439df45bd15442cb63e95eb58df8b2b/artifacts
+end_time: 1762302834233
+entry_point_name: ''
+experiment_id: '527376558779532286'
+lifecycle_stage: active
+run_id: b439df45bd15442cb63e95eb58df8b2b
+run_name: amusing-squirrel-198
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762302830295
+status: 3
+tags: []
+user_id: Administrator

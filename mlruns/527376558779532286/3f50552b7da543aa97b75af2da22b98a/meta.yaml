@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Administrator/Documents/GitHub/chinese-bert-service/mlruns/527376558779532286/3f50552b7da543aa97b75af2da22b98a/artifacts
+end_time: 1762302025848
+entry_point_name: ''
+experiment_id: '527376558779532286'
+lifecycle_stage: active
+run_id: 3f50552b7da543aa97b75af2da22b98a
+run_name: selective-wasp-519
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762302025795
+status: 4
+tags: []
+user_id: Administrator

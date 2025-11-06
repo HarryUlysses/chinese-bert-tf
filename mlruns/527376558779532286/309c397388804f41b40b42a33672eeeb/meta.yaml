@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Administrator/Documents/GitHub/chinese-bert-service/mlruns/527376558779532286/309c397388804f41b40b42a33672eeeb/artifacts
+end_time: 1762302680972
+entry_point_name: ''
+experiment_id: '527376558779532286'
+lifecycle_stage: active
+run_id: 309c397388804f41b40b42a33672eeeb
+run_name: resilient-foal-822
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762302677083
+status: 4
+tags: []
+user_id: Administrator

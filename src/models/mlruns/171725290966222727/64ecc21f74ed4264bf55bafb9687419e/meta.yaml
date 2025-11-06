@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Administrator/Documents/GitHub/chinese-bert-service/src/models/mlruns/171725290966222727/64ecc21f74ed4264bf55bafb9687419e/artifacts
+end_time: 1762301460193
+entry_point_name: ''
+experiment_id: '171725290966222727'
+lifecycle_stage: active
+run_id: 64ecc21f74ed4264bf55bafb9687419e
+run_name: smiling-owl-411
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762301460142
+status: 4
+tags: []
+user_id: Administrator

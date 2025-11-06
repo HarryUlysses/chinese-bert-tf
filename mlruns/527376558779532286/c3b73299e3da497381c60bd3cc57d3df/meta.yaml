@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Administrator/Documents/GitHub/chinese-bert-service/mlruns/527376558779532286/c3b73299e3da497381c60bd3cc57d3df/artifacts
+end_time: 1762302708479
+entry_point_name: ''
+experiment_id: '527376558779532286'
+lifecycle_stage: active
+run_id: c3b73299e3da497381c60bd3cc57d3df
+run_name: brawny-bird-464
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762302703817
+status: 4
+tags: []
+user_id: Administrator

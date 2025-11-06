@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Administrator/Documents/GitHub/chinese-bert-service/mlruns/527376558779532286/1920fe08412f4d0f8649fce28b34a2ac/artifacts
+end_time: 1762302640414
+entry_point_name: ''
+experiment_id: '527376558779532286'
+lifecycle_stage: active
+run_id: 1920fe08412f4d0f8649fce28b34a2ac
+run_name: thoughtful-quail-819
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762302636059
+status: 4
+tags: []
+user_id: Administrator

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Administrator/Documents/GitHub/chinese-bert-service/src/models/mlruns/171725290966222727/f061a7fcf0884560b7aa04bf11595856/artifacts
+end_time: 1762302599106
+entry_point_name: ''
+experiment_id: '171725290966222727'
+lifecycle_stage: active
+run_id: f061a7fcf0884560b7aa04bf11595856
+run_name: capricious-sow-52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762302595289
+status: 4
+tags: []
+user_id: Administrator

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Administrator/Documents/GitHub/chinese-bert-service/src/models/mlruns/171725290966222727/cc8514b0e9fd45f0bd5daa1c3cd692d2/artifacts
+end_time: 1762302290391
+entry_point_name: ''
+experiment_id: '171725290966222727'
+lifecycle_stage: active
+run_id: cc8514b0e9fd45f0bd5daa1c3cd692d2
+run_name: abrasive-boar-29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762302286473
+status: 4
+tags: []
+user_id: Administrator

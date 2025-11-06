@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Administrator/Documents/GitHub/chinese-bert-service/mlruns/527376558779532286/f4928aa62a59417ea97da9549766c33e/artifacts
+end_time: 1762302810385
+entry_point_name: ''
+experiment_id: '527376558779532286'
+lifecycle_stage: active
+run_id: f4928aa62a59417ea97da9549766c33e
+run_name: bold-cub-294
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762302806481
+status: 4
+tags: []
+user_id: Administrator
